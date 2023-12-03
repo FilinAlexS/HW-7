@@ -10,7 +10,7 @@ URL = 'https://demo.opencart.com'  # 'http://192.168.1.7', 'https://demo.opencar
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browser", default="safari")
+    parser.addoption("--browser", default="chrome")
     parser.addoption("--maximize", action="store_true")
     parser.addoption("--headless", action="store_true")
     parser.addoption("--executor", action="store", default=EXECUTOR)
